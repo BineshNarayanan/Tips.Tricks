@@ -15,5 +15,6 @@ and successfully consume a https or secured url.
    Note: The default password is "changeit"
 6. keytool -import -alias <any name> -keystore "%JAVA_HOME%/jre/lib/security/cacerts" -file <location to .cer file>
 7. After this the count to the number of certificates should increase by 1 which indicates that the certificate import was successful
+8. Post this step when you try to consume the url, it would work fine
 
 
